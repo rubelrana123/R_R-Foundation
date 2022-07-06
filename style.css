@@ -1,0 +1,228 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;1,600&family=Roboto:ital,wght@0,400;0,700;1,500&family=Rubik&display=swap');
+
+* {
+	margin: 0px;
+	padding: 0px;
+}
+body {
+	font-family: 'Poppins', sans-serif;
+	box-sizing: border-box;
+}
+
+.top-banner {
+
+	background-image: url('images/top-banner.png');
+	height: 600px;
+	box-shadow: rgba(0, 0, 0, 0.871) 0px -100px 100px inset;
+	margin-bottom: 80px;
+}
+.top-banner-content{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding: 175px 0px;
+	color: White;
+	letter-spacing: 1.5px;
+}
+.top-banner-content h1{
+	width: 60%;
+	text-align: center;
+	font-size: 60px;
+	font-weight: 700;
+}
+.top-banner-content p{
+	width: 45%;
+	text-align: center;
+}
+.top-banner-content a{
+	color: whitesmoke;
+	background-color: rgba(255, 89, 89, 1);
+;
+	background-image: linear-gradient();
+	padding: 12px 25px;
+	border-radius: 15px;
+	margin-top: 15px;
+	text-decoration: none;
+	font-size: 25px;
+	font-weight: 500;
+}
+.donate-today-text {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	text-align: center;
+}
+.donate-today-text h1{
+	font-size: 45px;
+	padding: 15px 0px;
+}
+.donate-today-text p{
+	color: dimgray;
+	width: 45%;
+	align-self: center;
+}
+.donate-money-1{
+	display: flex;
+	justify-content: space-evenly;
+	margin-top: 50px;
+
+}
+.donate-money-1 div{
+	border-radius: 8px;
+  font-size: 30px;
+	font-weight: 700;
+	padding: 40px;
+	margin-bottom: 30px;
+	background-color: rgb(252, 242, 242);
+	box-shadow:  2px 5px 5px 5px rgb(169, 162, 162);
+}
+.donate-money-1 .active{
+	border: 2px solid red;
+	color: red;
+	background-color: rgb(223, 148, 148);
+}
+.donate-money-2{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	text-align: center;
+	margin-top: 35px;
+	
+}
+.donate-money-2 input {
+	width: 60%;
+	display: flex;
+	align-self: center;
+	text-align: center;
+  border-top-style : hidden;
+  border-right-style : hidden;
+  border-left-style : hidden;
+
+ 
+}
+
+.outline:focus{
+	outline: none;
+}
+input[type="number"] {
+    font-size:25px;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button { 
+	-webkit-appearance: none;
+}
+
+.donate-money-2 a{
+	color: whitesmoke;
+	background-color: rgba(255, 89, 89, 1);
+;
+	background-image: linear-gradient();
+	padding: 15px;
+	border-radius: 15px;
+	margin-top: 30px;
+	margin-bottom: 100px;
+	text-decoration: none;
+	font-size: 25px;
+	font-weight: 500;
+	width: 165px;
+	align-self: center;
+	text-align: center;
+}
+
+/*  */
+.donate-plan{
+	margin-bottom: 100px;
+	
+
+}
+.donate-plan-title{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+
+}
+.donate-plan-title h1{
+	font-size: 45px;
+	padding: 10px 15px;
+
+
+}
+.donate-plan-title p{
+	width: 50%;
+	padding: 30px 10px;
+	text-align: center;
+}
+
+.donate-plan-ctg {
+	margin-left: 35px;
+	margin-right: 35px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	gap: 28px;
+}
+.donate-plan-ctg div{
+	/* border: 1px solid; */
+	padding: 25px 15px;
+	border-radius: 15px;
+	box-shadow: 5px 5px 15px rgb(204, 200, 200);
+ background: rgba(79, 157, 166, 0.1);
+;
+}
+.donate-plan-ctg div:nth-child(2) {
+ background: rgba(255, 89, 89, 0.1);
+
+}
+.donate-plan-ctg div:nth-child(3) {
+ background:  #e2d6d6;;
+
+}
+.about {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* background-image: url(./images/shapes/7.png);
+    background-size: cover;
+    background-repeat: no-repeat; */
+    padding: 100px 120px;
+    padding-top: 64px;
+}
+
+.about img {
+    width: 90%;
+		border-radius: 15px solid;
+}
+.about-details {
+    width: 50%;
+}
+.about h1 {
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 54px;
+    color: #121212;
+    padding-bottom: 15px;
+}
+.about p {
+    font-size: 18px;
+    line-height: 32px;
+    color: #18191f;
+    padding-bottom: 25px;
+    width: 500px;
+}
+  .about a {
+    width: 160px;
+    height: 56px;
+    background: #ff5959;
+    border-radius: 5px;
+    padding: 16px 12px;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    color: #ffffff;
+		text-decoration: none;
+	}
+
+		

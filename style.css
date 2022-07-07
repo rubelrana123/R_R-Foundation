@@ -48,6 +48,9 @@ body {
 	font-size: 25px;
 	font-weight: 500;
 }
+.top-banner-content a:hover{
+	color: whitesmoke;
+}
 .donate-today-text {
 	display: flex;
 	flex-direction: column;
@@ -78,6 +81,12 @@ body {
 	background-color: rgb(252, 242, 242);
 	box-shadow:  2px 5px 5px 5px rgb(169, 162, 162);
 }
+/* .donate-money-1 div:hover {
+	border: solid;
+	border-image-slice: 1;
+	border-width: 5px;
+	border-image-source: linear-gradient(60deg, #b16ec4, #5f97b9);
+} */
 .donate-money-1 .active{
 	border: 2px solid red;
 	color: red;
@@ -130,7 +139,7 @@ input[type=number]::-webkit-outer-spin-button {
 	text-align: center;
 }
 
-/*  */
+
 .donate-plan{
 	margin-bottom: 100px;
 	
